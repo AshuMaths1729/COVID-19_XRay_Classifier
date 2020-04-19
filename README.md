@@ -26,8 +26,8 @@ Put all other images other than these tags, under Pneumonia.
 -> Trained a custom CNN classifier to achieve the task of classfication on three classes of images.
 
 -> The Trained model can be found at: https://drive.google.com/file/d/1nwXP0_YMcC-_3QA5wf7lj2unNU-yzMLi/view?usp=sharing
-__
 
+___
 Screenshots
 
 ![alt text](https://github.com/AshuMaths1729/COVID-19_XRay_Classifier/blob/master/Accuracy_Plot.png "Accuracy")
@@ -41,8 +41,8 @@ This is because we have trained the model on just ~96 training and ~30 validatio
 Though the data from source 2 did have a lot more images which gives high accuracy when trained, but here since COVID-19 related radiography images which are in source 1, and are 138 in number (PA View Xrays).
 
 So, we decreased the number of images for other categories too, to avoid bias towards other two types of classes, viz. Normal and Pneumonia, rendering our task worthless.
-__
 
+___
 ## To-do:
 * Train on more number of instances (~10000) or so, to get better model's performace.
 * Use various CNN Architectures to get a better model.
