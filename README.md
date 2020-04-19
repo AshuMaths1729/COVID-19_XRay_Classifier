@@ -13,8 +13,7 @@ Combined datasets from two sources:
 	https://arxiv.org/abs/2003.11597
 
 2. Kermany, Daniel S., et al. "Identifying medical diagnoses and treatable diseases by image-based deep learning." Cell 172.5 (2018): 1122-1131. 
-	https://doi.org/10.1016/j.cell.2018.02.010
-	
+	https://doi.org/10.1016/j.cell.2018.02.010.
 	https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 -> Modified data from source 1. Put COVID-19 and COVID-19, ARDS into one group - COVID-19. Put No Finding tagged images under Normal.
