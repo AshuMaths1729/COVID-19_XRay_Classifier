@@ -1,6 +1,6 @@
 """
 Author: Ashutosh Agrahari
-Time: 19-Apr-2019 2:30 PM GMT+5:30
+Time: 19-Apr-2020 2:30 PM GMT+5:30
 
 Code to train the model over the images.
 """
