@@ -3,6 +3,9 @@ As part of the SAMHAR-COVID-19 Hackathon
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![hackathon](https://img.shields.io/badge/Hackathon-SAMHAR--COVID--19-yellow)](https://samhar-covid19hackathon.cdac.in/)
+[![vs-code](https://aleen42.github.io/badges/src/visual_studio_code.svg)](https://code.visualstudio.com/)
+[![Tf](https://aleen42.github.io/badges/src/tensorflow.svg)](https://www.tensorflow.org/)
+
 ## The project aims to predict if a person is Normal or having normal Pneumonia or is suffering from COVID-19 Pneumonia.
 
 ___
