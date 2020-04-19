@@ -29,7 +29,7 @@ Put all other images other than these tags, under Pneumonia.
 -> The Trained model weights can be found here: https://drive.google.com/file/d/1bvRqYpnxW4QDZoRIWvBdu1sg5ci-yAPR/view?usp=sharing
 
 ___
-Screenshots
+## Training Stats
 
 ![alt text](https://github.com/AshuMaths1729/COVID-19_XRay_Classifier/blob/master/Accuracy_Plot.png "Accuracy")
 
