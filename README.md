@@ -26,7 +26,7 @@ Put all other images other than these tags, under Pneumonia.
 
 -> Trained a custom CNN classifier to achieve the task of classfication on three classes of images.
 
--> The Trained model can be found at: https://drive.google.com/file/d/1nwXP0_YMcC-_3QA5wf7lj2unNU-yzMLi/view?usp=sharing
+-> The Trained model weights can be found here: https://drive.google.com/file/d/1bvRqYpnxW4QDZoRIWvBdu1sg5ci-yAPR/view?usp=sharing
 
 ___
 Screenshots
