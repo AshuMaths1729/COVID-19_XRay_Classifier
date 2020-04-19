@@ -52,3 +52,9 @@ ___
 * Use various CNN Architectures to get a better model.
 * Deploy the trained classifier on to an Android App, for easy functionality.
 
+
+___
+## Team A_Cube
+* Ashutosh Agrahari
+* Ankur Veer
+* Anshuman Singh
