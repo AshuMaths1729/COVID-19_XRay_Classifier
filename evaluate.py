@@ -1,3 +1,10 @@
+"""
+Author: Ashutosh Agrahari
+Time: 19-Apr-2020 2:31PM GMT+5:30
+
+Code for inferencing and testing the model.
+"""
+
 import tensorflow as tf
 import numpy as np
 from keras.preprocessing import image
