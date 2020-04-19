@@ -1,3 +1,10 @@
+"""
+Author: Ashutosh Agrahari
+Time: 19-Apr-2019 2:30 PM GMT+5:30
+
+Code to train the model over the images.
+"""
+
 import tensorflow as tf
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
@@ -8,8 +15,7 @@ from keras.utils import plot_model
 import matplotlib.pyplot as plt
 import os
 
-MODEL_FILE = "trained_model.h5"
-SAVE_DIR = os.path.join(os.getcwd(), 'saved_models')
+MODEL_PATH = "saved_models/trained_model"
 
 # Data
 training_data_dir = "data/train" 
@@ -77,6 +83,10 @@ val_generator = validation_data_generator.flow_from_directory(
     batch_size=1,
     shuffle=False)
 
+
+model.summary()
+
+
 # Training
 history = model.fit_generator(
             training_generator,
@@ -86,11 +96,13 @@ history = model.fit_generator(
             validation_data=val_generator)
 
 # Save model and weights
-if not os.path.isdir(SAVE_DIR):
-    os.makedirs(SAVE_DIR)
-model_path = os.path.join(SAVE_DIR, MODEL_FILE)
-model.save(model_path)
-print('Saved trained model at %s '% MODEL_FILE)
+model.save(MODEL_PATH)
+print('Saved trained model at %s '% MODEL_PATH)
+
+# Save the weights
+model.save_weights('saved_models/trained_weights')
+
+
 
 
 ## Plot Training stats
